@@ -1,0 +1,564 @@
+/*Y bueno, aca es donde comienza mi frustración*/
+*{
+    box-sizing: border-box;
+    margin: 0px;
+padding: 0px;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    background-color: #ebebeb;
+    margin: 0%;
+}
+
+header{
+    background-color: #eac926;
+}
+figure{
+    margin: 0;
+}
+
+
+.logo-mercado-liebre{
+    width: 100px;
+    height: 100px;
+}
+
+
+.banner{
+    width: 100%;
+}
+.barra-de-busqueda{
+    display: flex;
+    margin-left: 0%;
+    margin-bottom: 0%;
+    margin-top: 0px;
+}
+
+figure{
+    margin-bottom: 0px
+}
+
+.titulares{
+    font-size: 24px;
+    color: #666;
+    text-align: center;
+    margin-bottom: 4%;
+    margin-top: 3%;
+    
+}
+
+.precio{
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.descuentos{
+    font-size: 16px;
+    color: #39b54a;
+    margin-top: 7px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.nombre{
+    font-size: 16px;
+    color: gray;
+    text-align: left;
+    margin-bottom: 5px;
+    opacity: 0;
+    height: 0;
+}
+.productos:hover .nombre{
+    transition: all 1s;
+    opacity: 1;
+    height: auto;
+    
+}
+.productos:hover .camion i{
+    transition: all 1s;
+    transform: rotate(360deg);
+}
+.compra-cuotas{
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 10px;
+}
+
+.main-article {
+    display: flex;
+}
+
+.burger-menu {
+    text-align: center;
+}
+
+.burger-menu i {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #03264C;;
+    color: white
+}
+
+
+.logo{
+    color: blue;
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+
+footer{
+    text-align: center;
+    line-height: 20px;
+    background-color: white;
+}
+
+.descripciones{
+    font-size: 16px;
+    margin-top: 5px;
+    padding-bottom: 30px;
+}
+
+
+.subtitulo{
+margin-top:5px;
+margin-bottom:1px;
+}
+
+main{
+    text-align: center;
+    width: 90%;
+    margin: 10px 10px;
+}
+.pata-de-pagina{
+    padding:50px;
+}
+.camion i{
+    color: #39b54a;
+        display: block;
+        font-size: 16px;
+        padding: 5px;
+        width: 30px;
+        height: 30px;
+        border: 1px solid #39b54a;
+        background-color: #FFF;
+        border-radius: 50%;
+        position: absolute;
+        right: 20px;
+        top: -15px;
+        }
+
+.camion{
+text-align:left
+}
+
+.productos{
+    border-top: solid 1px #ebebeb;
+    padding: 15px 15px 5px 15px;
+    background-color: white;
+    text-align: center;
+    border-bottom: solid 10px #ebebeb;
+    
+}
+.main-article{
+    position: relative;
+    margin-bottom: 3%;
+}
+.product_img{
+    border-bottom: solid 1px #ebebeb;
+    width: 100%;
+}
+.lista a{
+            display: flex;
+            color: black;
+        }
+        #usuario, #password{
+            width: 70%;
+            height: 100px;
+            padding:14px;
+        }
+        .login-user{
+            text-align:center;
+            margin-top:13%;
+            margin-bottom:6%;
+            height: 40px;
+            }
+     .login-password{
+          text-align:center;
+            margin-top:0%;
+            margin-bottom:10%;
+            
+     }
+
+    .login-button{
+        text-align:center;
+        margin-bottom: 40%
+    }
+    #boton{
+        background-color:#1259c3;;
+        color: white;
+        width:70%;
+        border-radius: 4px;
+        padding: 5px;
+    }
+    #domicilio, #nombre, #email, #fecha, #registro-password, #usuario2{
+        width: 70%;
+            padding:14px;
+    }
+    form h3, .registro-titulo{
+        margin-bottom:10px;
+        margin-left: 8px
+    }
+   .registro-de-usuario, .registro-de-domicilio, .registro-de-nacimiento, .registro-de-contraseña {
+        text-align: center;
+        padding-bottom:15px;
+        padding-top:15px
+    }
+
+    .registro-de-persona{
+        padding-bottom:15px
+    }
+    #comprar,#vender,#registro-comprar, #registro-vender{
+        margin: 12px;
+       
+    }
+    .categorias{
+        margin-bottom: 30px;
+        margin-left: 20px;
+    }
+    .categorias label{
+        margin-left: 25px
+    }
+
+    .registro-titulo2{
+        padding-bottom:15px;
+    }
+    .input-file {
+        border: 1px solid #ccc;
+        display: inline-block;
+        padding: 6px 12px;
+        cursor: pointer;
+    }
+    .registro-boton-enviar{
+        text-align: center;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+    .registro-boton-enviar button{
+        background-color:#1259c3;;
+        color: white;
+        width:20%;
+        border-radius: 4px;
+        padding: 5px;
+    }
+    .login-button #boton:hover{
+        background-color: #0022AA;
+        
+    }
+
+
+           /*ODIO la parte de adaptar, tipo adaptate solo y listo, no es muy dificil*/
+
+    @media(max-width:480px){
+    .site{
+        display:none
+    }
+    .login-navbar{
+        display:none
+    }
+    .nombre{
+        display: none;
+    }
+    .div-header{
+        display: flex;
+    }
+    input{
+        max-height: 20px;
+    }
+    .barra-de-busqueda{
+        align-items: center;
+        width: 50%;
+        margin-left: 25px;
+    }
+}
+
+@media(min-width:768px){
+    .productos:hover {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    
+        }
+        .productos:hover .nombre{
+            display:block;
+        }
+
+        .productos{
+            transition: all 450ms;
+        }
+
+    .burger-menu{
+        display:none
+        }
+        .div-header{
+            display: flex;
+        }
+        .gran-header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .compra-cuotas{
+            max-width: 216px;
+            margin-bottom: 0px;
+            margin-top: 8px
+
+        }
+        .lista{
+            display:flex;
+            justify-content:space-between;
+            padding-bottom: 3%;
+        }
+        .lista ul{
+            display: flex;
+        }
+        .lista li{
+            margin: 0 5px;
+        }
+        .lista a{
+            display: flex;
+        }
+        input{
+            width: 300px;
+            max-height: 20px;
+        }
+        .barra-de-busqueda{
+            align-items: center;
+            margin-left: 20%;
+        }
+        
+        .login-navbar{
+            margin-right: 20px
+        }
+        .todos-productos-1,.todos-productos-2 {
+            display:flex;
+            flex-wrap:wrap;
+            align-items: flex-start;
+            }
+            .productos{
+                margin-bottom: 5%;
+                margin: 1%;
+                width: 48%;
+            }
+        .titulares{
+            text-align:left;
+            margin-bottom: 1px;
+            margin-left: 1%;
+        }
+        #usuario, #password, #nombre{
+            width: 70%;
+            height: 100px;
+            padding:14px;
+        }
+        .login-user, .registro-de-usuario, .registro-de-nacimiento, .registro-de-domicilio{
+            text-align:center;
+            margin-top:5%;
+            margin-bottom:4%;
+            height: 40px;
+            padding:0;
+            }
+     .login-password{
+          text-align:center;
+            margin-top:0%;
+            margin-bottom: 5%;
+            
+     }
+
+    .login-button{
+        text-align:center;
+        margin-bottom: 5%
+    }
+    #boton{
+        background-color:#1259c3;;
+        color: white;
+        width:70%;
+        border-radius: 4px;
+        padding: 5px;
+    }
+    #comprar, #vender{
+        width: 55px
+    }
+    .registro-de-persona{
+        text-align: center;
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+    #registro-comprar{
+        margin-right: 15%
+    }
+    .categorias input{
+        width:100px
+    }
+    .categorias label{
+        margin: 0
+
+    }
+    .categorias{
+        margin-top: 40px
+    }
+    .registro-titulo2{
+        margin-bottom: 50px
+    }
+    .registro-titulo2 label{
+        margin-top: 40px
+    }
+    .registro-de-contraseña{
+        margin-top: 25px
+    }
+    }
+    
+    
+    @media(min-width: 1200px){
+            .burger-menu{
+                display:none
+            }
+            .header, .lista{
+                max-width: 1200px;
+                margin:auto;
+            }
+            .lista{
+                padding-bottom: 1%;
+            }
+            .lista a{
+                font-size: 18px;
+            }
+            .logo-mercado-liebre{
+                width: 150px;
+                margin-left:20%;
+            }
+            .compra-cuotas{
+                max-width:none
+            }
+    
+            .barra-de-busqueda{
+                margin-left:5%;
+            }
+    
+            input{
+                width: 400px;
+                height: 30px;
+                max-height:none;
+            }
+            button{
+                width: 40px;
+                height: 30px;
+    
+            }
+            .todos-productos-1, .todos-productos-2{
+                text-align: center;
+                margin-left: 5%;
+            }
+            .productos{
+                margin-bottom: 5%;
+                margin: 1%;
+                width: 23%
+            }
+            #usuario, #password{
+                width: 700px;
+                height: 45px;
+                padding:14px;
+            }
+            .login-user{
+                text-align:center;
+                margin-top:5%;
+                margin-bottom:4%;
+                height: 40px;
+                }
+         .login-password{
+              text-align:center;
+                margin-top:0%;
+                margin-bottom: 5%;
+                
+         }
+    
+        .login-button{
+            text-align:center;
+            margin-bottom: 5%
+        }
+        #boton{
+            background-color:#1259c3;;
+            color: white;
+            width:700px;
+            border-radius: 4px;
+            padding: 5px;
+            height: 40px
+        }
+        #nombre, #usuario2, #email, #fecha, #domicilio, #registro-password{
+            width: 700px;
+            height: 45px
+        }
+        #vender, #comprar{
+            margin-bottom: 12px
+        }
+        .registro-de-persona{
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom:25px;
+            margin-top: 25px;
+        }
+        .registro-boton-enviar{
+            margin-top: 30px;
+            margin-bottom: 45px
+        }
+        .registro-boton-enviar button{
+            width: 300px;
+            height: 45px;
+            margin-left: 25px
+        }
+        .categorias{
+            display: flex;
+            justify-content: center;
+            margin-top: 25px;
+            margin-bottom: 25px;
+            margin-right: 32%
+        }
+        #cat{
+            width: 75px
+        }
+        .registro-de-usuario, .registro-de-domicilio, .registro-de-contraseña, .registro-de-nacimiento{
+            text-align: center;
+            margin-left: 20px;
+            margin-top: 25px;
+            margin-bottom: 35px
+        }
+        .logo i:hover{
+            color: greenyellow
+        }
+        .pata-de-pagina{
+            display: flex;
+            padding-bottom: 20%
+        }
+        .form-registro{
+            text-align: center;
+            
+        }
+
+        .registro-titulo{
+
+            margin-top: 30px;
+            margin-left: 20%
+        }
+        .titulares{
+            margin-left: 6%
+        }
+        .barra-de-busqueda{
+            margin-left: 10%
+        }
+        } 
+        
